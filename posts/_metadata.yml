@@ -1,0 +1,13 @@
+
+# Options apply to all posts in this folder
+
+# Freeze computational output
+freeze: true
+
+# Citation settings
+citation: true
+
+# Code settings
+code-fold: true
+code-summary: "Show code"
+code-tools: true

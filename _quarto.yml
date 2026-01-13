@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Michael Phelps: The Golden Narrative"
+  site-url: https://github.com/GrigoryArtazyan/mp_path_to_gold_blog
+  description: "An interactive exploration of the greatest Olympic swimmer of all time"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+    right:
+      - icon: github
+        href: https://github.com/GrigoryArtazyan/mp_path_to_gold_blog
+      - icon: rss
+        href: index.xml
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+freeze: true

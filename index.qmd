@@ -1,0 +1,39 @@
+---
+title: "Michael Phelps: The Golden Narrative"
+subtitle: "Exploring the greatest Olympic run in history"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  categories: true
+  feed: true
+image: phelps-hero.jpg
+---
+
+## Career Snapshot
+
+::: {.grid}
+
+::: {.g-col-4}
+### Total Medals
+**28**
+:::
+
+::: {.g-col-4}
+### Gold Medals
+**23**
+:::
+
+::: {.g-col-4}
+### Source
+**World Aquatics – Official Records**
+:::
+
+:::
+
+---
+
+Welcome to an interactive exploration of Michael Phelps' unprecedented Olympic career. This blog documents the journey of the most decorated Olympian in history through data visualizations, analysis, and storytelling.
+
+Use the posts below to explore different aspects of his remarkable career, from his debut in Athens 2004 (also including 2000 participation) to his final race in Rio 2016.
+---

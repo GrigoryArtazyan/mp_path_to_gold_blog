@@ -1,0 +1,27 @@
+---
+title: "About"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/GrigoryArtazyan
+---
+
+## About This Project
+
+This blog explores the extraordinary Olympic career of Michael Phelps through interactive data visualizations and analytical storytelling. 
+
+Michael Phelps is the most decorated Olympian of all time, with 28 Olympic medals including 23 golds. This project aims to bring his achievements to life through data-driven narratives.
+
+## About the Data
+
+All statistics are sourced from World Aquatics (formerly FINA) official records and the International Olympic Committee databases.
+
+## Technologies Used
+
+- **Quarto**: For creating this blog and interactive documents
+- **R**: For data analysis and visualization
+- **plotly/ggplot2**: For interactive charts
+
+---

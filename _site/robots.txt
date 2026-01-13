@@ -1,0 +1,1 @@
+Sitemap: https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/sitemap.xml

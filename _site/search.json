@@ -1,0 +1,86 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Michael Phelps: The Golden Narrative",
+    "section": "",
+    "text": "28\n\n\n\n23\n\n\n\nWorld Aquatics – Official Records\n\n\n\nWelcome to an interactive exploration of Michael Phelps’ unprecedented Olympic career. This blog documents the journey of the most decorated Olympian in history through data visualizations, analysis, and storytelling."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This blog explores the extraordinary Olympic career of Michael Phelps through interactive data visualizations and analytical storytelling.\nMichael Phelps is the most decorated Olympian of all time, with 28 Olympic medals including 23 golds. This project aims to bring his achievements to life through data-driven narratives."
+  },
+  {
+    "objectID": "index.html#career-snapshot",
+    "href": "index.html#career-snapshot",
+    "title": "Michael Phelps: The Golden Narrative",
+    "section": "",
+    "text": "28\n\n\n\n23\n\n\n\nWorld Aquatics – Official Records\n\n\n\nWelcome to an interactive exploration of Michael Phelps’ unprecedented Olympic career. This blog documents the journey of the most decorated Olympian in history through data visualizations, analysis, and storytelling."
+  },
+  {
+    "objectID": "index.html#use-the-posts-below-to-explore-different-aspects-of-his-remarkable-career-from-his-debut-in-athens-2004-to-his-final-race-in-rio-2016.",
+    "href": "index.html#use-the-posts-below-to-explore-different-aspects-of-his-remarkable-career-from-his-debut-in-athens-2004-to-his-final-race-in-rio-2016.",
+    "title": "Michael Phelps: The Golden Narrative",
+    "section": "Use the posts below to explore different aspects of his remarkable career, from his debut in Athens 2004 to his final race in Rio 2016.",
+    "text": "Use the posts below to explore different aspects of his remarkable career, from his debut in Athens 2004 to his final race in Rio 2016."
+  },
+  {
+    "objectID": "posts/olympic-journey/index.html",
+    "href": "posts/olympic-journey/index.html",
+    "title": "The Olympic Journey: 2000-2016",
+    "section": "",
+    "text": "Michael Phelps competed in five Olympic Games from 2000 to 2016, accumulating an unprecedented 28 medals. This interactive dashboard allows you to explore his journey chronologically.\n\n\n\nTotal MedalsBy Olympics\n\n\n28 Olympic Medals\n\n23 Gold\n3 Silver\n\n2 Bronze\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUse the play button or slider to watch Phelps’ medals accumulate over time!\n\n\n\n\n\n\n\n\n\n\nSydney 2000: Phelps, age 15, no medlas\nAthens 2004: Phelps burst onto the scene with 6 gold and 2 bronze medals\nBeijing 2008: The legendary 8 gold medal performance - breaking Mark Spitz’s record\nLondon 2012: Added 4 more golds and became the most decorated Olympian ever\nRio 2016: Capped his career with 5 more golds in his final Olympic appearance\n\n\n\n\n\n\n\n\n\n\n\nSource: World Aquatics (FINA) Official Records, International Olympic Committee"
+  },
+  {
+    "objectID": "posts/olympic-journey/index.html#the-greatest-olympic-run-in-history",
+    "href": "posts/olympic-journey/index.html#the-greatest-olympic-run-in-history",
+    "title": "The Olympic Journey: 2000-2016",
+    "section": "",
+    "text": "Michael Phelps competed in five Olympic Games from 2000 to 2016, accumulating an unprecedented 28 medals. This interactive dashboard allows you to explore his journey chronologically.\n\n\n\nTotal MedalsBy Olympics\n\n\n28 Olympic Medals\n\n23 Gold\n3 Silver\n\n2 Bronze\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUse the play button or slider to watch Phelps’ medals accumulate over time!\n\n\n\n\n\n\n\n\n\n\nSydney 2000: Phelps, age 15, no medlas\nAthens 2004: Phelps burst onto the scene with 6 gold and 2 bronze medals\nBeijing 2008: The legendary 8 gold medal performance - breaking Mark Spitz’s record\nLondon 2012: Added 4 more golds and became the most decorated Olympian ever\nRio 2016: Capped his career with 5 more golds in his final Olympic appearance\n\n\n\n\n\n\n\n\n\n\n\nSource: World Aquatics (FINA) Official Records, International Olympic Committee"
+  },
+  {
+    "objectID": "about.html#about-this-project",
+    "href": "about.html#about-this-project",
+    "title": "About",
+    "section": "",
+    "text": "This blog explores the extraordinary Olympic career of Michael Phelps through interactive data visualizations and analytical storytelling.\nMichael Phelps is the most decorated Olympian of all time, with 28 Olympic medals including 23 golds. This project aims to bring his achievements to life through data-driven narratives."
+  },
+  {
+    "objectID": "about.html#about-the-data",
+    "href": "about.html#about-the-data",
+    "title": "About",
+    "section": "About the Data",
+    "text": "About the Data\nAll statistics are sourced from World Aquatics (formerly FINA) official records and the International Olympic Committee databases."
+  },
+  {
+    "objectID": "about.html#technologies-used",
+    "href": "about.html#technologies-used",
+    "title": "About",
+    "section": "Technologies Used",
+    "text": "Technologies Used\n\nQuarto: For creating this blog and interactive documents\nR: For data analysis and visualization\nplotly/ggplot2: For interactive charts"
+  },
+  {
+    "objectID": "index.html#use-the-posts-below-to-explore-different-aspects-of-his-remarkable-career-from-his-debut-in-athens-2004-also-including-2000-participation-to-his-final-race-in-rio-2016.",
+    "href": "index.html#use-the-posts-below-to-explore-different-aspects-of-his-remarkable-career-from-his-debut-in-athens-2004-also-including-2000-participation-to-his-final-race-in-rio-2016.",
+    "title": "Michael Phelps: The Golden Narrative",
+    "section": "Use the posts below to explore different aspects of his remarkable career, from his debut in Athens 2004 (also including 2000 participation) to his final race in Rio 2016.",
+    "text": "Use the posts below to explore different aspects of his remarkable career, from his debut in Athens 2004 (also including 2000 participation) to his final race in Rio 2016."
+  }
+]

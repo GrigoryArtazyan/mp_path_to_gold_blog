@@ -1,0 +1,161 @@
+---
+title: "The Olympic Journey: 2000-2016"
+description: "An interactive visualization of Michael Phelps' medal accumulation across five Olympic Games"
+author: "Your Name"
+date: "2026-01-12"
+categories:
+  - visualization
+  - olympics
+  - interactive
+image: "olympic-rings.jpg"
+---
+
+## The Greatest Olympic Run in History
+
+Michael Phelps competed in five Olympic Games from 2000 to 2016, accumulating an unprecedented 28 medals. This interactive dashboard allows you to explore his journey chronologically.
+
+```{r}
+#| label: setup
+#| include: false
+library(tidyverse)
+library(plotly)
+library(DT)
+
+# Create the medal data
+phelps_data <- tibble(
+  year = c(2000, 2004, 2008, 2012, 2016),
+  olympics = c("Sydney", "Athens", "Beijing", "London", "Rio"),
+  gold = c(0, 6, 8, 4, 5),
+  silver = c(0, 0, 0, 2, 1),
+  bronze = c(0, 2, 0, 0, 0)
+) |> 
+  mutate(
+    cumulative_gold = cumsum(gold),
+    cumulative_silver = cumsum(silver),
+    cumulative_bronze = cumsum(bronze),
+    cumulative_total = cumulative_gold + cumulative_silver + cumulative_bronze
+  )
+```
+
+### Career Snapshot
+
+::: {.panel-tabset}
+
+## Total Medals
+
+**28 Olympic Medals**
+
+- 23 Gold
+- 3 Silver  
+- 2 Bronze
+
+## By Olympics
+
+```{r}
+#| echo: false
+phelps_data %>%
+  select(Year = olympics, Gold = gold, Silver = silver, Bronze = bronze) %>%
+  mutate(Total = Gold + Silver + Bronze) %>%
+  datatable(
+    options = list(pageLength = 5, dom = 't'),
+    rownames = FALSE
+  )
+```
+
+:::
+
+### Interactive Medal Timeline
+
+Use the play button or slider to watch Phelps' medals accumulate over time!
+
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 6
+
+# Create cumulative data for animation
+medal_frames <- phelps_data |> 
+  select(year, olympics, 
+         Gold = cumulative_gold, 
+         Silver = cumulative_silver, 
+         Bronze = cumulative_bronze) |> 
+  pivot_longer(cols = c(Gold, Silver, Bronze), 
+               names_to = "medal_type", 
+               values_to = "count")
+
+# Create the animated plot
+p <- plot_ly(
+  medal_frames,
+  x = ~olympics,
+  y = ~count,
+  color = ~medal_type,
+  colors = c("Gold" = "#FFD700", "Silver" = "#C0C0C0", "Bronze" = "#CD7F32"),
+  frame = ~year,
+  type = 'bar',
+  text = ~paste(medal_type, ":", count),
+  hovertemplate = '%{text}<extra></extra>'
+) |> 
+  layout(
+    title = list(
+      text = "Michael Phelps: Cumulative Medal Count",
+      font = list(size = 20, family = "Arial Black")
+    ),
+    xaxis = list(title = "Olympic Games"),
+    yaxis = list(title = "Cumulative Medals", range = c(0, 25)),
+    barmode = 'stack',
+    showlegend = TRUE,
+    legend = list(title = list(text = "Medal Type"))
+  ) |> 
+  animation_opts(
+    frame = 1000,
+    transition = 500,
+    redraw = FALSE
+  ) |> 
+  animation_slider(
+    currentvalue = list(
+      prefix = "Year: ",
+      font = list(size = 16)
+    )
+  ) |> 
+  animation_button(
+    label = "Play"
+  )
+
+p
+```
+
+### Key Highlights
+- **Sydney 2000**: Phelps, age 15, no medlas
+- **Athens 2004**: Phelps burst onto the scene with 6 gold and 2 bronze medals
+- **Beijing 2008**: The legendary 8 gold medal performance - breaking Mark Spitz's record
+- **London 2012**: Added 4 more golds and became the most decorated Olympian ever
+- **Rio 2016**: Capped his career with 5 more golds in his final Olympic appearance
+
+### The Numbers
+
+```{r}
+#| echo: false
+
+summary_stats <- tibble(
+  Metric = c(
+    "Total Olympics",
+    "Total Medals",
+    "Gold Medals",
+    "Silver Medals",
+    "Bronze Medals",
+    "Individual Events Won",
+    "World Records Set"
+  ),
+  Value = c(5, 28, 23, 3, 2, 13, 39)
+)
+
+datatable(
+  summary_stats,
+  options = list(pageLength = 10, dom = 't'),
+  rownames = FALSE
+)
+```
+
+---
+
+**Source**: World Aquatics (FINA) Official Records, International Olympic Committee
