@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>Michael Phelps: The Golden Narrative</title>
+<link>https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/</link>
+<atom:link href="https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/index.xml" rel="self" type="application/rss+xml"/>
+<description>An interactive exploration of the greatest Olympic swimmer of all time</description>
+<image>
+<url>https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/phelps-hero.jpg</url>
+<title>Michael Phelps: The Golden Narrative</title>
+<link>https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/</link>
+</image>
+<generator>quarto-1.7.33</generator>
+<lastBuildDate>Mon, 12 Jan 2026 08:00:00 GMT</lastBuildDate>
+<item>
+  <title>The Olympic Journey: 2000-2016</title>
+  <dc:creator>Your Name</dc:creator>
+  <link>https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/posts/olympic-journey/</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="the-greatest-olympic-run-in-history" class="level2">
+<h2 class="anchored" data-anchor-id="the-greatest-olympic-run-in-history">The Greatest Olympic Run in History</h2>
+<p>Michael Phelps competed in five Olympic Games from 2000 to 2016, accumulating an unprecedented 28 medals. This interactive dashboard allows you to explore his journey chronologically.</p>
+<section id="career-snapshot" class="level3">
+<h3 class="anchored" data-anchor-id="career-snapshot">Career Snapshot</h3>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs"><li class="nav-item"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" aria-controls="tabset-1-1" aria-selected="true">Total Medals</a></li><li class="nav-item"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" aria-controls="tabset-1-2" aria-selected="false">By Olympics</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" aria-labelledby="tabset-1-1-tab">
+<p><strong>28 Olympic Medals</strong></p>
+<ul>
+<li>23 Gold</li>
+<li>3 Silver<br>
+</li>
+<li>2 Bronze</li>
+</ul>
+</div>
+<div id="tabset-1-2" class="tab-pane" aria-labelledby="tabset-1-2-tab">
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-5537537bdcee0ea3917b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5537537bdcee0ea3917b">{"x":{"filter":"none","vertical":false,"data":[["Sydney","Athens","Beijing","London","Rio"],[0,6,8,4,5],[0,0,0,2,1],[0,2,0,0,0],[0,8,8,6,6]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Year<\/th>\n      <th>Gold<\/th>\n      <th>Silver<\/th>\n      <th>Bronze<\/th>\n      <th>Total<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":5,"dom":"t","columnDefs":[{"className":"dt-right","targets":[1,2,3,4]},{"name":"Year","targets":0},{"name":"Gold","targets":1},{"name":"Silver","targets":2},{"name":"Bronze","targets":3},{"name":"Total","targets":4}],"order":[],"autoWidth":false,"orderClasses":false,"lengthMenu":[5,10,25,50,100]}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section id="interactive-medal-timeline" class="level3">
+<h3 class="anchored" data-anchor-id="interactive-medal-timeline">Interactive Medal Timeline</h3>
+<p>Use the play button or slider to watch Phelps’ medals accumulate over time!</p>
+<div class="cell">
+<div class="cell-output-display">
+<div class="plotly html-widget html-fill-item" id="htmlwidget-20fe1e8267c980f5ca41" style="width:100%;height:390px;"></div>
+<script type="application/json" data-for="htmlwidget-20fe1e8267c980f5ca41">{"x":{"visdat":{"b041287c3b25":["function () ","plotlyVisDat"]},"cur_data":"b041287c3b25","attrs":{"b041287c3b25":{"x":{},"y":{},"text":{},"hovertemplate":"%{text}<extra><\/extra>","color":{},"frame":{},"colors":["#FFD700","#C0C0C0","#CD7F32"],"alpha_stroke":1,"sizes":[10,100],"spans":[1,20],"type":"bar"}},"layout":{"margin":{"b":40,"l":60,"t":25,"r":10},"title":{"text":"Michael Phelps: Cumulative Medal Count","font":{"size":20,"family":"Arial Black"}},"xaxis":{"domain":[0,1],"automargin":true,"title":"Olympic Games","type":"category","categoryorder":"array","categoryarray":["Athens","Beijing","London","Rio","Sydney"]},"yaxis":{"domain":[0,1],"automargin":true,"title":"Cumulative Medals","range":[0,25]},"barmode":"stack","showlegend":true,"legend":{"title":{"text":"Medal Type"}},"hovermode":"closest","sliders":[{"currentvalue":{"prefix":"Year: ","xanchor":"right","font":{"size":16,"color":"rgba(204,204,204,1)"}},"steps":[{"method":"animate","args":[["2000"],{"transition":{"duration":500,"easing":"linear"},"frame":{"duration":1000,"redraw":false},"mode":"immediate"}],"label":"2000","value":"2000"},{"method":"animate","args":[["2004"],{"transition":{"duration":500,"easing":"linear"},"frame":{"duration":1000,"redraw":false},"mode":"immediate"}],"label":"2004","value":"2004"},{"method":"animate","args":[["2008"],{"transition":{"duration":500,"easing":"linear"},"frame":{"duration":1000,"redraw":false},"mode":"immediate"}],"label":"2008","value":"2008"},{"method":"animate","args":[["2012"],{"transition":{"duration":500,"easing":"linear"},"frame":{"duration":1000,"redraw":false},"mode":"immediate"}],"label":"2012","value":"2012"},{"method":"animate","args":[["2016"],{"transition":{"duration":500,"easing":"linear"},"frame":{"duration":1000,"redraw":false},"mode":"immediate"}],"label":"2016","value":"2016"}],"visible":true,"pad":{"t":40}}],"updatemenus":[{"type":"buttons","direction":"right","showactive":false,"y":0,"x":0,"yanchor":"top","xanchor":"right","pad":{"t":60,"r":5},"buttons":[{"label":"Play","method":"animate","args":[null,{"fromcurrent":true,"mode":"immediate","transition":{"duration":500,"easing":"linear"},"frame":{"duration":1000,"redraw":false}}]}]}]},"source":"A","config":{"modeBarButtonsToAdd":["hoverclosest","hovercompare"],"showSendToCloud":false},"data":[{"x":["Sydney"],"y":[0],"text":"Bronze : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2000","type":"bar","name":"Bronze","marker":{"color":"rgba(205,127,50,1)","line":{"color":"rgba(205,127,50,1)"}},"textfont":{"color":"rgba(205,127,50,1)"},"error_y":{"color":"rgba(205,127,50,1)"},"error_x":{"color":"rgba(205,127,50,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Sydney"],"y":[0],"text":"Gold : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2000","type":"bar","name":"Gold","marker":{"color":"rgba(255,215,0,1)","line":{"color":"rgba(255,215,0,1)"}},"textfont":{"color":"rgba(255,215,0,1)"},"error_y":{"color":"rgba(255,215,0,1)"},"error_x":{"color":"rgba(255,215,0,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Sydney"],"y":[0],"text":"Silver : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2000","type":"bar","name":"Silver","marker":{"color":"rgba(192,192,192,1)","line":{"color":"rgba(192,192,192,1)"}},"textfont":{"color":"rgba(192,192,192,1)"},"error_y":{"color":"rgba(192,192,192,1)"},"error_x":{"color":"rgba(192,192,192,1)"},"xaxis":"x","yaxis":"y","visible":true}],"highlight":{"on":"plotly_click","persistent":false,"dynamic":false,"selectize":false,"opacityDim":0.20000000000000001,"selected":{"opacity":1},"debounce":0},"frames":[{"name":"2000","data":[{"x":["Sydney"],"y":[0],"text":"Bronze : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2000","type":"bar","name":"Bronze","marker":{"color":"rgba(205,127,50,1)","line":{"color":"rgba(205,127,50,1)"}},"textfont":{"color":"rgba(205,127,50,1)"},"error_y":{"color":"rgba(205,127,50,1)"},"error_x":{"color":"rgba(205,127,50,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Sydney"],"y":[0],"text":"Gold : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2000","type":"bar","name":"Gold","marker":{"color":"rgba(255,215,0,1)","line":{"color":"rgba(255,215,0,1)"}},"textfont":{"color":"rgba(255,215,0,1)"},"error_y":{"color":"rgba(255,215,0,1)"},"error_x":{"color":"rgba(255,215,0,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Sydney"],"y":[0],"text":"Silver : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2000","type":"bar","name":"Silver","marker":{"color":"rgba(192,192,192,1)","line":{"color":"rgba(192,192,192,1)"}},"textfont":{"color":"rgba(192,192,192,1)"},"error_y":{"color":"rgba(192,192,192,1)"},"error_x":{"color":"rgba(192,192,192,1)"},"xaxis":"x","yaxis":"y","visible":true}],"traces":[0,1,2]},{"name":"2004","data":[{"x":["Athens"],"y":[2],"text":"Bronze : 2","hovertemplate":"%{text}<extra><\/extra>","frame":"2004","type":"bar","name":"Bronze","marker":{"color":"rgba(205,127,50,1)","line":{"color":"rgba(205,127,50,1)"}},"textfont":{"color":"rgba(205,127,50,1)"},"error_y":{"color":"rgba(205,127,50,1)"},"error_x":{"color":"rgba(205,127,50,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Athens"],"y":[6],"text":"Gold : 6","hovertemplate":"%{text}<extra><\/extra>","frame":"2004","type":"bar","name":"Gold","marker":{"color":"rgba(255,215,0,1)","line":{"color":"rgba(255,215,0,1)"}},"textfont":{"color":"rgba(255,215,0,1)"},"error_y":{"color":"rgba(255,215,0,1)"},"error_x":{"color":"rgba(255,215,0,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Athens"],"y":[0],"text":"Silver : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2004","type":"bar","name":"Silver","marker":{"color":"rgba(192,192,192,1)","line":{"color":"rgba(192,192,192,1)"}},"textfont":{"color":"rgba(192,192,192,1)"},"error_y":{"color":"rgba(192,192,192,1)"},"error_x":{"color":"rgba(192,192,192,1)"},"xaxis":"x","yaxis":"y","visible":true}],"traces":[0,1,2]},{"name":"2008","data":[{"x":["Beijing"],"y":[2],"text":"Bronze : 2","hovertemplate":"%{text}<extra><\/extra>","frame":"2008","type":"bar","name":"Bronze","marker":{"color":"rgba(205,127,50,1)","line":{"color":"rgba(205,127,50,1)"}},"textfont":{"color":"rgba(205,127,50,1)"},"error_y":{"color":"rgba(205,127,50,1)"},"error_x":{"color":"rgba(205,127,50,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Beijing"],"y":[14],"text":"Gold : 14","hovertemplate":"%{text}<extra><\/extra>","frame":"2008","type":"bar","name":"Gold","marker":{"color":"rgba(255,215,0,1)","line":{"color":"rgba(255,215,0,1)"}},"textfont":{"color":"rgba(255,215,0,1)"},"error_y":{"color":"rgba(255,215,0,1)"},"error_x":{"color":"rgba(255,215,0,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Beijing"],"y":[0],"text":"Silver : 0","hovertemplate":"%{text}<extra><\/extra>","frame":"2008","type":"bar","name":"Silver","marker":{"color":"rgba(192,192,192,1)","line":{"color":"rgba(192,192,192,1)"}},"textfont":{"color":"rgba(192,192,192,1)"},"error_y":{"color":"rgba(192,192,192,1)"},"error_x":{"color":"rgba(192,192,192,1)"},"xaxis":"x","yaxis":"y","visible":true}],"traces":[0,1,2]},{"name":"2012","data":[{"x":["London"],"y":[2],"text":"Bronze : 2","hovertemplate":"%{text}<extra><\/extra>","frame":"2012","type":"bar","name":"Bronze","marker":{"color":"rgba(205,127,50,1)","line":{"color":"rgba(205,127,50,1)"}},"textfont":{"color":"rgba(205,127,50,1)"},"error_y":{"color":"rgba(205,127,50,1)"},"error_x":{"color":"rgba(205,127,50,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["London"],"y":[18],"text":"Gold : 18","hovertemplate":"%{text}<extra><\/extra>","frame":"2012","type":"bar","name":"Gold","marker":{"color":"rgba(255,215,0,1)","line":{"color":"rgba(255,215,0,1)"}},"textfont":{"color":"rgba(255,215,0,1)"},"error_y":{"color":"rgba(255,215,0,1)"},"error_x":{"color":"rgba(255,215,0,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["London"],"y":[2],"text":"Silver : 2","hovertemplate":"%{text}<extra><\/extra>","frame":"2012","type":"bar","name":"Silver","marker":{"color":"rgba(192,192,192,1)","line":{"color":"rgba(192,192,192,1)"}},"textfont":{"color":"rgba(192,192,192,1)"},"error_y":{"color":"rgba(192,192,192,1)"},"error_x":{"color":"rgba(192,192,192,1)"},"xaxis":"x","yaxis":"y","visible":true}],"traces":[0,1,2]},{"name":"2016","data":[{"x":["Rio"],"y":[2],"text":"Bronze : 2","hovertemplate":"%{text}<extra><\/extra>","frame":"2016","type":"bar","name":"Bronze","marker":{"color":"rgba(205,127,50,1)","line":{"color":"rgba(205,127,50,1)"}},"textfont":{"color":"rgba(205,127,50,1)"},"error_y":{"color":"rgba(205,127,50,1)"},"error_x":{"color":"rgba(205,127,50,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Rio"],"y":[23],"text":"Gold : 23","hovertemplate":"%{text}<extra><\/extra>","frame":"2016","type":"bar","name":"Gold","marker":{"color":"rgba(255,215,0,1)","line":{"color":"rgba(255,215,0,1)"}},"textfont":{"color":"rgba(255,215,0,1)"},"error_y":{"color":"rgba(255,215,0,1)"},"error_x":{"color":"rgba(255,215,0,1)"},"xaxis":"x","yaxis":"y","visible":true},{"x":["Rio"],"y":[3],"text":"Silver : 3","hovertemplate":"%{text}<extra><\/extra>","frame":"2016","type":"bar","name":"Silver","marker":{"color":"rgba(192,192,192,1)","line":{"color":"rgba(192,192,192,1)"}},"textfont":{"color":"rgba(192,192,192,1)"},"error_y":{"color":"rgba(192,192,192,1)"},"error_x":{"color":"rgba(192,192,192,1)"},"xaxis":"x","yaxis":"y","visible":true}],"traces":[0,1,2]}],"shinyEvents":["plotly_hover","plotly_click","plotly_selected","plotly_relayout","plotly_brushed","plotly_brushing","plotly_clickannotation","plotly_doubleclick","plotly_deselect","plotly_afterplot","plotly_sunburstclick"],"base_url":"https://plot.ly"},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+</section>
+<section id="key-highlights" class="level3">
+<h3 class="anchored" data-anchor-id="key-highlights">Key Highlights</h3>
+<ul>
+<li><strong>Sydney 2000</strong>: Phelps, age 15, no medlas</li>
+<li><strong>Athens 2004</strong>: Phelps burst onto the scene with 6 gold and 2 bronze medals</li>
+<li><strong>Beijing 2008</strong>: The legendary 8 gold medal performance - breaking Mark Spitz’s record</li>
+<li><strong>London 2012</strong>: Added 4 more golds and became the most decorated Olympian ever</li>
+<li><strong>Rio 2016</strong>: Capped his career with 5 more golds in his final Olympic appearance</li>
+</ul>
+</section>
+<section id="the-numbers" class="level3">
+<h3 class="anchored" data-anchor-id="the-numbers">The Numbers</h3>
+<div class="cell">
+<div class="cell-output-display">
+<div class="datatables html-widget html-fill-item" id="htmlwidget-5115d7b443678747325c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-5115d7b443678747325c">{"x":{"filter":"none","vertical":false,"data":[["Total Olympics","Total Medals","Gold Medals","Silver Medals","Bronze Medals","Individual Events Won","World Records Set"],[5,28,23,3,2,13,39]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Metric<\/th>\n      <th>Value<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"dom":"t","columnDefs":[{"className":"dt-right","targets":1},{"name":"Metric","targets":0},{"name":"Value","targets":1}],"order":[],"autoWidth":false,"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+</div>
+</div>
+<hr>
+<p><strong>Source</strong>: World Aquatics (FINA) Official Records, International Olympic Committee</p>
+
+
+<!-- -->
+
+</section>
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" id="quarto-citation"><h2 class="anchored quarto-appendix-heading">Citation</h2><div><div class="quarto-appendix-secondary-label">BibTeX citation:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{name2026,
+  author = {Name, Your},
+  title = {The {Olympic} {Journey:} 2000-2016},
+  date = {2026-01-12},
+  url = {https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/posts/olympic-journey/},
+  langid = {en}
+}
+</code></pre><div class="quarto-appendix-secondary-label">For attribution, please cite this work as:</div><div id="ref-name2026" class="csl-entry quarto-appendix-citeas">
+Name, Your. 2026. <span>“The Olympic Journey: 2000-2016.”</span> January
+12, 2026. <a href="https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/posts/olympic-journey/">https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/posts/olympic-journey/</a>.
+</div></div></section></div> ]]></description>
+  <category>visualization</category>
+  <category>olympics</category>
+  <category>interactive</category>
+  <guid>https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/posts/olympic-journey/</guid>
+  <pubDate>Mon, 12 Jan 2026 08:00:00 GMT</pubDate>
+  <media:content url="https://github.com/GrigoryArtazyan/mp_path_to_gold_blog/posts/olympic-journey/olympic-rings.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

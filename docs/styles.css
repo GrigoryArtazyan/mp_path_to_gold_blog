@@ -1,0 +1,70 @@
+/* Custom CSS for Michael Phelps Blog */
+
+/* Header styling */
+.quarto-title-banner {
+  background: linear-gradient(135deg, #0066cc 0%, #004d99 100%);
+  color: white;
+}
+
+/* Grid styling for career snapshot */
+.grid {
+  display: grid;
+  grid-gap: 1rem;
+  margin: 2rem 0;
+}
+
+.g-col-4 {
+  background: #f8f9fa;
+  padding: 1.5rem;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.g-col-4 h3 {
+  color: #0066cc;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.g-col-4 strong {
+  font-size: 2.5rem;
+  color: #FFD700;
+  font-weight: bold;
+  display: block;
+}
+
+/* Medal colors */
+.gold-text {
+  color: #FFD700;
+}
+
+.silver-text {
+  color: #C0C0C0;
+}
+
+.bronze-text {
+  color: #CD7F32;
+}
+
+/* Card styling for posts */
+.quarto-post {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.quarto-post:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+/* Table styling */
+.dataTables_wrapper {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Plotly chart container */
+.plotly {
+  margin: 2rem 0;
+}
